@@ -25,7 +25,7 @@ app.get('/webhook/', function (req, res) {
 })
 
 app.post('/receipt', function(req, res){
-  console.log(JSON.stringify(req));
+  console.log(req);
   res.send(JSON.stringify(req));
 });
 
